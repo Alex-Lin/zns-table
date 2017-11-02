@@ -1,0 +1,25 @@
+{
+  "name": "zns-table",
+  "version": "0.1.0",
+  "description": "make html table",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex-Lin/zns-table.git"
+  },
+  "keywords": [
+    "zns-table",
+    "html",
+    "table"
+  ],
+  "author": "Alex Lin <alex@zns.me> (http://zns.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alex-Lin/zns-table/issues"
+  },
+  "homepage": "https://github.com/Alex-Lin/zns-table#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
