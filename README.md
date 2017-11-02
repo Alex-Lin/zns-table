@@ -1,6 +1,6 @@
 # zns-table #
 
-`npm i zns-table`;
+`npm i zns-table`
 
 ```javascript
 var ZnsTable = require('zns-table');

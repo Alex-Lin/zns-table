@@ -38,18 +38,18 @@ ZnsTable.prototype.getData = function() {
 
 ZnsTable.prototype.makeHtml = function() {
     const self = this;
-    let html = '<table style="' + this.style + '">';
+    let html = `<table style="${self.style}">`;
     if (_.isArray(self.header)) {
         html += '<tr>';
         for (let h = 0; h < self.header.length; ++h) {
-            html += '<th style="' + self.thStyle + '">' + self.header[h] + '</th>';
+            html += `<th style="${self.thStyle}">${self.header[h]}</th>`;
         }
         html += '</tr>';
 
         for (let r = 0; r < self.body.length; ++r) {
             html += '<tr>';
             for (let d = 0; d < self.body[r].length; ++d) {
-                html += '<td style="' + self.tdStyle + '">' + self.body[r][d] + '</td>';
+                html += `<td style="${self.tdStyle}">${self.body[r][d]}</td>`;
             }
             html += '</tr>';
         }
