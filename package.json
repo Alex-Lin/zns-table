@@ -1,6 +1,6 @@
 {
   "name": "zns-table",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "make html table",
   "main": "index.js",
   "scripts": {},

@@ -22,9 +22,9 @@ var dataArray = [{
 }]
 
 var table = new ZnsTable(dataArray);
-console.log(Table.print());
+console.log(table.print());
 
 // custom header
 table = new ZnsTable(dataArray, ['title1', 'title3']);
-console.log(Table.print());
+console.log(table.print());
 ```
